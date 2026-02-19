@@ -10,7 +10,7 @@ export const productReducer=( state = initialState, action)=>{
         return productFind;
 
         // case"FILTER_PRODUCT":
-        // const productFilter=state.filter(p=>p.category==action.category)
+        // constcategoryFilter=state.filter(p=>p.product==action.product)
         // return productFilter;
 
         case"DELETE_PRODUCT":
