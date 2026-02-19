@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid grey;
+    margin-left: 20px;
+    padding: 10px 30px;
+   
+
+
+    .sidebar-items{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
